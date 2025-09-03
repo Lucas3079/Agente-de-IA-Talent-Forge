@@ -198,7 +198,7 @@ class AnalisadorCurriculo:
         total_caracteristicas = contadores["contador"]
         
         if total_caracteristicas > 8:
-            return "excelente", f"Excelente! Encontramos {total_caracteristicas} características compatíveis com a vaga. Você está no nível mais alto da hierarquia."
+            return "excelente", f"Excelente. Encontramos {total_caracteristicas} características compatíveis com a vaga. Você está no nível mais alto da hierarquia."
         elif total_caracteristicas >= 6:
             return "bom", f"Bom! Encontramos {total_caracteristicas} características compatíveis com a vaga. Você está no segundo nível da hierarquia."
         elif total_caracteristicas >= 3:
